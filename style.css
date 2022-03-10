@@ -656,6 +656,10 @@ a {
   color: #575757 !important;
 }
 
+p {
+  font-size: 13px !important;
+}
+
 .container {
   max-width: 1000px;
 }
@@ -780,17 +784,19 @@ h4 {
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: #fff !important;
 }
 
 .btn-atomic-tangerine {
   background: #f3976c;
   color: #ffffff !important;
+  transition: 0.3s ease-in-out;
 }
 
 .btn-atomic-tangerine:hover {
   background: #c27956 !important;
   color: #ffffff !important;
+  transform: scale(1.1);
 }
 
 .ltc-white {
@@ -935,6 +941,7 @@ h4 {
     text-align: left;
     padding-left: 15px;
     width: 100%;
+    transition: 0.3s ease-in-out;
   }
   .nav > li:hover {
     background: rgba(0, 0, 0, 0.08);
